@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const urlRoutes = require('./routes/urlRoutes');
+const urlRoutes = require('./routes/urlRoutes.js');
 const analyticsRoutes = require('./routes/analyticsRoutes'); // Added analytics routes
 
 dotenv.config();
