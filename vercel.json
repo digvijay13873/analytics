@@ -8,16 +8,16 @@
   ],
   "routes": [
     {
-      "src": "shorten",
-      "dest": "shorten.js"
+      "src": "/api/shorten",
+      "dest": "/api/shorten.js"
     },
     {
-      "src": "shorten/:alias",
-      "dest": "redirect.js"
+      "src": "/api/shorten/:alias",
+      "dest": "/api/redirect.js"
     },
     {
-      "src": "analytics/:alias",
-      "dest": "analytics.js"
+      "src": "/api/analytics/:alias",
+      "dest": "/api/analytics.js"
     }
   ]
 }
