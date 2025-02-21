@@ -1,0 +1,10 @@
+/url-shortener
+├── api
+│   ├── analytics.js
+│   ├── shorten.js
+│   └── redirect.js
+├── .env
+├── package.json
+├── vercel.json
+├── README.md
+└── node_modules/ (auto-generated after installing dependencies)
