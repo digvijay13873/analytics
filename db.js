@@ -5,4 +5,4 @@ const redisClient = redis.createClient({
   url: process.env.REDIS_URL, // This loads the Redis URL from your .env file
 });
 
-redisClient.connect().catch(console.err
+redisClient.connect().catch(console.error);
